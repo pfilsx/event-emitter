@@ -1,0 +1,29 @@
+{
+  "name": "pfilsx/events",
+  "description": "Simple event emitter system on PHP",
+  "keywords": [
+    "events",
+    "event emitter",
+    "php"
+  ],
+  "homepage": "https://github.com/pfilsx/event-emitter",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Pavel Filimonov",
+      "email": "pfilsx@gmail.com",
+      "homepage": "https://github.com/pfilsx/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/pfilsx/event-emitter/issues?state=open",
+    "source": "https://github.com/pfilsx/event-emitter"
+  },
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {"pfilsx\\events\\": ""}
+  }
+}
